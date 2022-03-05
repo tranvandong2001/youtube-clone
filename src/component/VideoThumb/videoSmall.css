@@ -1,0 +1,46 @@
+.videoSmall {
+    padding: 0 0 10px 20px;
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.videoAll {
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 3px;
+    margin-top: 10px;
+}
+.videoAll__img {
+    width: 210px;
+    height: 117px;
+
+    object-fit: cover;
+}
+
+.videoSmall__img {
+    width: 168px;
+    height: 94px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.videoSmall__block {
+    margin-left: 20px;
+}
+.videoSmall__heading {
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.videoSmall__name {
+    color: #757575;
+    font-size: 12px;
+    cursor: pointer;
+}
+.videoSmall__time-block {
+    color: #757575;
+    font-size: 12px;
+}
+.videoSmall__time {
+}

@@ -1,0 +1,122 @@
+.header {
+    height: var(--header-height);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.header__wrapper {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.header__left {
+    flex: 2;
+    display: flex;
+}
+.header__img {
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+}
+.header__center {
+    flex: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__center-wrapper {
+    width: 60%;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 1px 2px #eee;
+    height: 40px;
+}
+
+.header__search {
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    color: var(--text-color);
+}
+.header__icons-mic {
+    background-color: var(--background-color);
+    border-radius: 50%;
+    margin-left: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+.header__input {
+    flex: 1;
+    width: 88%;
+    max-width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    font-size: 16px;
+}
+.header__input:focus {
+    border: 1px solid #065fd4;
+}
+.header__right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+.header__icons {
+    cursor: pointer;
+    margin-right: 25px;
+}
+.header__icons.avatar {
+    width: 30px !important;
+    height: 30px !important;
+}
+.avatar__wrapper {
+    /* padding: 10px 20px; */
+}
+.avatar__top {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.avatar__manage {
+    margin-left: 15px;
+}
+.avatar__manage a {
+    text-decoration: none;
+    color: #065fd4;
+}
+.avatar__manage-heading {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.avatar__center {
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.avatar__setting {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 16px;
+    position: relative;
+}
+
+.avatar__setting:hover {
+    background-color: #f2f2f2;
+}
+.avatar__center-text {
+    margin-left: 10px;
+}
+.avatar__arrow {
+    position: absolute;
+    right: 20px;
+}
+.avatar__bottom {
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}

@@ -1,0 +1,126 @@
+.channel {
+    flex: 8;
+}
+.channel__cover-img {
+    width: 100%;
+    height: 208px;
+    object-fit: cover;
+}
+.channel__info {
+    padding: 16px 105px;
+}
+.channel__info-top {
+}
+.channel__info-top--wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.channel__avatar {
+    width: 80px;
+    height: 80px;
+}
+.channel__info-block {
+    margin-left: 20px;
+}
+.channel__info-name {
+    font-size: 25px;
+    font-weight: 500;
+}
+.channel__info-sub {
+    color: #77868c;
+    font-size: 14px;
+}
+.button {
+    position: absolute;
+    right: 0;
+    border: none;
+    padding: 8px 18px;
+    background-color: #cc0000;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button.sub {
+    border: none;
+    padding: 8px 18px;
+    background-color: #ececec;
+    color: #636074;
+    font-weight: 500;
+    cursor: pointer;
+}
+.channel__info-top--title {
+    display: flex;
+    align-items: center;
+}
+.channel__info-title {
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    color: #77868c;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.channel__info-title:hover {
+    color: #000;
+}
+.channel__info-title.active {
+    color: #000;
+}
+.channel__info-title.active::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #77868c;
+}
+.channel__icon {
+    color: #77868c;
+    cursor: pointer;
+}
+
+.channel__slider {
+    margin: 30px 0 20px 0;
+}
+.channel__slider-wrapper {
+    display: flex;
+}
+.channel__slider-block {
+    width: 40%;
+    margin-left: 20px;
+    vertical-align: justify;
+}
+.channel__slider-heading {
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.channel__slider-time--block {
+    padding: 20px 0;
+}
+.channel__slider-time {
+    color: #77868c;
+    font-size: 12px;
+}
+.channel__slider-more {
+    color: #484f52;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.channel__bottom {
+}
+.channel__bottom-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.channel__bottom-heading {
+    font-weight: 500;
+}
