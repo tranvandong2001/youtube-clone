@@ -12,14 +12,14 @@ const Video = () => {
         <div className="video">
             <div className="video__wrapper ">
                 <img
-                    src="https://cuoixastress.com/wp-content/uploads/2021/06/anh-hot-girl-lanh-lung-42.gif"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65CXLkEWFDlHIHnU1hDnHHVn0GdfzBR7Ejg&usqp=CAU"
                     alt=""
                     className="video__img"
                     onClick={handleRedirect}
                 />
                 <div className="video__block">
                     <Avatar
-                        src="https://cuoixastress.com/wp-content/uploads/2021/06/anh-hot-girl-lanh-lung-42.gif"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT65CXLkEWFDlHIHnU1hDnHHVn0GdfzBR7Ejg&usqp=CAU"
                         onClick={handleRedirect}
                     />
                     <div className="video__container">
