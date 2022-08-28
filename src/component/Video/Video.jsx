@@ -12,7 +12,7 @@ const Video = () => {
         <div className="video">
             <div className="video__wrapper ">
                 <img
-                    src="https://cuoixastress.com/wp-content/uploads/2021/06/anh-hot-girl-lanh-lung-42.gif"
+                    src="https://i.ytimg.com/vi/vCIc1g_4JWM/maxresdefault.jpg"
                     alt=""
                     className="video__img"
                     onClick={handleRedirect}
